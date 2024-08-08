@@ -4,12 +4,13 @@ body{
     background-color: #f4f4f4;
 }
 header{
+    margin: 0;
+    padding: 0;
+    align-items: center;
+    display: flex;
     background-color: #444444;
     color: white;
-    padding: 20px;
     font-family: sans-serif;
-    justify-content: center;
-    display: flex;
 }
 .container{
     display: flex;
@@ -17,13 +18,13 @@ header{
 }
 main{
     background-color: #fff;
-    padding: 20px;
-    border-radius: 2px;
+    padding: 15px;
+    border-radius: 5px;
     box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1);
-    margin-right: 20px;
-    width: 60%;
+    margin-right: 10px;
+    width: 10%;
     font-family: sans-serif;
-    flex: 3;
+    flex: 2.5;
 }
 .card-container{
     display: flex;
@@ -32,9 +33,9 @@ main{
 .card{
     background-color: #fff;
     box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1);
-    width: 28%;
-    margin: 15px;
-    padding: 30px;
+    width: 26%;
+    margin: 10px;
+    padding: 20px;
     border-radius: 10px;
     text-align: center;
 }
@@ -52,21 +53,22 @@ button{
     border-radius: 20px;
 }
 aside{
-    border-radius: 2px;
+    padding: 20px;
+    align-items: start;
+    border-radius: 5px;
     box-shadow: 0 10px 10px rgba(0, 0, 0, 0.1);
-    background-color: #fff;
-    flex: 0.5;
-
+    background-color: #f4f4f4;
+    flex: 1;
+    font-family: sans-serif;
 }
 .cardsss{
     display: flex;
-    justify-content: space-around;
 }
 .cardss{
     background-color: #fff;
     box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1);
     width: 28%;
-    /* margin: 45px; */
+    margin: 10px;
     padding: 10px;
     border-radius: 10px;
     text-align: center;
@@ -74,8 +76,8 @@ aside{
 }
 .cardss img{
     margin: 5px;
-    width: 300px;
-    height: 250px;
+    width: 220px;
+    height: 200px;
     border-radius:20px;
     object-fit: cover;
 }
@@ -86,4 +88,24 @@ footer {
     text-align: center;
     width: 100%;
     bottom: 0;
+}
+.h{
+    margin-left: 40%;
+    font-family: sans-serif;
+}
+.h  ul {
+    align-items: center;
+    justify-content: center;
+    display: flex;
+    text-align: center;
+    justify-content: flex-end;
+    list-style-type: none;
+}
+.h  ul li a {
+    margin: 20px;
+    color: #fff;
+    text-decoration: none;
+}
+.btn-teal{
+    color: teal;
 }
