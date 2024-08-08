@@ -46,6 +46,7 @@ main{
     object-fit: cover;
 }
 button{
+    cursor: pointer;
     background-color:#03344C;
     border: none;
     padding: 10px;
